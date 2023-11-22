@@ -867,21 +867,27 @@ Gli alberi binari di ricerca sono spesso utilizzati per implementare algoritmi d
 
 \subsubsection{Alberi bilanciati}
 
-La bilanciatura di un albero binario di ricerca (BST) consiste nel mantenere la struttura dell'albero in modo tale che la profondità di ogni nodo sia il più vicina possibile alla profondità media dell'albero. Ciò migliora l'efficienza delle operazioni di ricerca e inserimento, che sono operazioni \( O(log\: n) \) in un BST bilanciato.
+La bilanciatura di un albero binario di ricerca (BST) consiste nel mantenere la struttura dell'albero in modo tale che la profondità di ogni nodo sia il più vicina possibile alla profondità media dell'albero, il \textbf{fattore di bilanciamento} si indica con \(\beta(v)\). Ciò migliora l'efficienza delle operazioni di ricerca e inserimento, che sono operazioni \( O(log\: n) \) in un BST bilanciato.
 \\
 \\
 Esistono diversi tipi di alberi bilanciati: 
 \begin{itemize}
-\item\textbf{ Alberi AVL} : Gli alberi AVL sono BST bilanciati in cui la differenza tra la profondità dei sottoalberi sinistro e destro di ogni nodo non supera mai 1. Gli alberi AVL sono facili da implementare e hanno prestazioni eccellenti.
+\item\textbf{ Alberi AVL} : Gli alberi AVL sono BST bilanciati in cui la differenza tra la profondità dei sottoalberi sinistro e destro di ogni nodo non supera mai 1 (\(\beta(v) \leq 1\)). Il bilanciamento è ottenuto tramite \textbf{rotazioni}.
 \item  \textbf{B-alberi}: Un B-albero (in inglese: B-tree) è una struttura dati che permette la rapida localizzazione dei file (record o chiavi), specie nelle basi di dati, riducendo il numero di volte che un utente necessita per accedere alla memoria in cui il dato è salvato.
+I B-alberi sono generalmente "piatti" ovvero la loro altezza generalmente è tra 1 e 2
 \item \textbf{Alberi 2-3}: Gli alberi 2-3 sono BST bilanciati in cui ogni nodo può avere al massimo due figli, uno sinistro e uno destro. I nodi interni degli alberi 2-3 possono contenere al massimo due valori.
 \item \textbf{Alberi rosso - neri}:Gli alberi rosso-neri sono un tipo di albero binario di ricerca (BST) bilanciato. Gli alberi rosso-neri soddisfano le seguenti proprietà:
 \begin{itemize}
 	\item Ogni nodo è rosso o nero.
-	\item La radice dell'albero è nera.
-	\item Tutti i fogli (nodi senza figli) sono neri.
-	\item Se un nodo è rosso, entrambi i suoi figli devono essere neri.
-	\item Ogni percorso da una foglia alla radice contiene lo stesso numero di nodi neri.
+	\item Le \textbf{chiavi} vengono mantenute solo nei nodi interni dell'albero
+	\item Le foglie sono costituite da nodi speciali \verb*|Nil|
+	\item Vengono rispettati i seguenti vincoli:
+	\begin{itemize}
+		\item la radice è nera
+		\item tutte le foglie sono nere
+		\item entrambi i figli di un nodo rosso sono neri 
+		\item Ogni cammino semplice da un nodo \(u\) ad una delle foglie contenute nel suo sottoalbero ha lo stesso numero di nodi neri 
+	\end{itemize}
 \end{itemize}
 Queste proprietà garantiscono che l'altezza di un albero rosso-nero sia sempre \( O(log\: n) \), dove n è il numero di nodi dell'albero.
 \end{itemize}
@@ -889,6 +895,34 @@ Queste proprietà garantiscono che l'altezza di un albero rosso-nero sia sempre 
 	\centering
 	\includegraphics[width=0.8\linewidth]{photo/alberoRN}
 \end{figure}
+\textbf{Memorizzazione alberi Red-Black}: in aggiunta ai campi classici di un albero binario ovvero:
+\begin{itemize}
+	\item Tree \verb*|parent|
+	\item Tree \verb*|left|
+	\item Tree \verb*|right|
+	\item \textbf{int} \verb*|color|
+	\item Item \verb*|key|
+	\item Item \verb*|value|
+\end{itemize}
+\textbf{Altezza nera di un nodo \(v\))}: l'altezza nera \(bh(v)\) di un nodo \(v\) è il numero di nodi neri lungo ogni cammino da \(v\)(escluso) ad ogni foglia (inclusa) del suo sottoalbero \\
+\textbf{Altezza nera di un albero Red-Black}: L'altezza nera di un albero Red-Black è pari all'altezza nera della sua radice 
+\newpage
+\textbf{Inserimento}: E' possibile che durante la modifica di un albero Red-Black le condizioni di bilanciamento risultino violate.
+\\
+Quando i vincoli sopracitati vengono violati si può agire nei seguenti modi :
+\begin{itemize}
+	\item Modificando i colori nella zona della violazione
+	\item Operando dei ribilanciamenti dell'albero tramite \textbf{rotazioni} rispettivamente \textbf{rotazione destra} e \textbf{rotazione sinistra}
+
+\end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{photo/rotazionedx.png}
+\end{figure}
+
+
+
 
 \end{document}
 
