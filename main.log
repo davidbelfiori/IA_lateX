@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.18)  21 NOV 2023 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.18)  29 NOV 2023 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,7 +482,76 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
-Package hyperref Info: Option `colorlinks' set `true' on input line 18.
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen190
+\captionmargin=\dimen191
+\caption@leftmargin=\dimen192
+\caption@rightmargin=\dimen193
+\caption@width=\dimen194
+\caption@indent=\dimen195
+\caption@parindent=\dimen196
+\caption@hangindent=\dimen197
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count318
+\c@continuedfloat=\count319
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count320
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count321
+)
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
+ode.sty
+Package: algpseudocode 
+ (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmi
+cx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count322
+\c@ALG@rem=\count323
+\c@ALG@nested=\count324
+\ALG@tlm=\skip60
+\ALG@thistlm=\skip61
+\c@ALG@Lnr=\count325
+\c@ALG@blocknr=\count326
+\c@ALG@storecount=\count327
+\c@ALG@tmpcounter=\count328
+\ALG@tmplength=\skip62
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+(C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.st
+y
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+ (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count329
+\float@exts=\toks26
+\float@box=\box104
+\@float@everytoks=\toks27
+\@floatcapt=\box105
+)
+\@float@every@algorithm=\toks28
+\c@algorithm=\count330
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
+
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
@@ -492,39 +561,39 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
 
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
-\scratchdimen=\dimen190
-\scratchbox=\box104
-\nofMPsegments=\count319
-\nofMParguments=\count320
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count321
-\MPscratchDim=\dimen191
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count331
+\scratchdimen=\dimen198
+\scratchbox=\box106
+\nofMPsegments=\count332
+\nofMParguments=\count333
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count334
+\MPscratchDim=\dimen199
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
+\everyMPtoPDFconversion=\toks30
 )
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -570,195 +639,275 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \it@ocap on input line 66.
-LaTeX Info: Redefining \it@ccap on input line 66.
+LaTeX Info: Redefining \it@ocap on input line 70.
+LaTeX Info: Redefining \it@ccap on input line 70.
 
 File italian.ldf warning: 
 italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 66.
+italian.ldf    on input line 70.
 
-Package hyperref Info: Link coloring ON on input line 66.
+Package hyperref Info: Link coloring ON on input line 70.
 (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-\c@lstlisting=\count324
- (main.toc)
+\c@lstlisting=\count337
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (main.toc [1
+
+{C:/Users/David/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [1
-
-{C:/Users/David/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--97
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
 
  []
 
-<photo/Minsearch.png, id=215, 444.4605pt x 183.68625pt>
+<photo/Minsearch.png, id=264, 444.4605pt x 183.68625pt>
 File: photo/Minsearch.png Graphic file (type png)
 <use photo/Minsearch.png>
-Package pdftex.def Info: photo/Minsearch.png  used on input line 101.
+Package pdftex.def Info: photo/Minsearch.png  used on input line 105.
 (pdftex.def)             Requested size: 213.39568pt x 88.1908pt.
-[2 <./photo/Minsearch.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 132--135
+[3 <./photo/Minsearch.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
 
-[3]
-<photo/InsertionSorting.png, id=248, 478.78876pt x 252.945pt>
+[4]
+<photo/InsertionSorting.png, id=298, 478.78876pt x 252.945pt>
 File: photo/InsertionSorting.png Graphic file (type png)
 <use photo/InsertionSorting.png>
-Package pdftex.def Info: photo/InsertionSorting.png  used on input line 147.
+Package pdftex.def Info: photo/InsertionSorting.png  used on input line 151.
 (pdftex.def)             Requested size: 213.39568pt x 112.73578pt.
-<photo/costo_ciclo_annidato.png, id=250, 800.39024pt x 99.9735pt>
+<photo/costo_ciclo_annidato.png, id=300, 800.39024pt x 99.9735pt>
 File: photo/costo_ciclo_annidato.png Graphic file (type png)
 <use photo/costo_ciclo_annidato.png>
-Package pdftex.def Info: photo/costo_ciclo_annidato.png  used on input line 173
+Package pdftex.def Info: photo/costo_ciclo_annidato.png  used on input line 177
 .
 (pdftex.def)             Requested size: 320.0935pt x 39.98105pt.
- [4 <./photo/InsertionSorting.png> <./photo/costo_ciclo_annidato.png>]
+ [5 <./photo/InsertionSorting.png> <./photo/costo_ciclo_annidato.png>]
 File: photo/InsertionSorting.png Graphic file (type png)
 <use photo/InsertionSorting.png>
-Package pdftex.def Info: photo/InsertionSorting.png  used on input line 180.
+Package pdftex.def Info: photo/InsertionSorting.png  used on input line 184.
 (pdftex.def)             Requested size: 213.39568pt x 112.73578pt.
-<photo/BinarySearch.png, id=261, 669.702pt x 249.93375pt>
+<photo/BinarySearch.png, id=313, 669.702pt x 249.93375pt>
 File: photo/BinarySearch.png Graphic file (type png)
 <use photo/BinarySearch.png>
-Package pdftex.def Info: photo/BinarySearch.png  used on input line 195.
+Package pdftex.def Info: photo/BinarySearch.png  used on input line 199.
 (pdftex.def)             Requested size: 320.0935pt x 119.45961pt.
 
-[5 <./photo/BinarySearch.png>]
-Overfull \hbox (56.43192pt too wide) in paragraph at lines 255--257
+[6 <./photo/BinarySearch.png>]
+Overfull \hbox (56.43192pt too wide) in paragraph at lines 259--261
 \OT1/cmr/m/n/10 Consente al-l'u-ten-te di me-mo-riz-za-re nu-me-ri mol-to gran-
 di da -9223372036854775808 a 9223372036854775807 
  []
 
-[6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 423--427
+[7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 427--431
 
  []
 
-[9] [10] [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 579--585
+[10] [11] [12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 583--589
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--592
+Underfull \hbox (badness 10000) in paragraph at lines 590--596
 
  []
 
-[13] [14]
-<photo/linkedlist.png, id=631, 815.045pt x 221.82875pt>
+[14] [15]
+<photo/linkedlist.png, id=685, 815.045pt x 221.82875pt>
 File: photo/linkedlist.png Graphic file (type png)
 <use photo/linkedlist.png>
-Package pdftex.def Info: photo/linkedlist.png  used on input line 720.
+Package pdftex.def Info: photo/linkedlist.png  used on input line 724.
 (pdftex.def)             Requested size: 341.43437pt x 92.92711pt.
-<photo/DLL.png, id=632, 682.80093pt x 140.02313pt>
+<photo/DLL.png, id=686, 682.80093pt x 140.02313pt>
 File: photo/DLL.png Graphic file (type png)
 <use photo/DLL.png>
-Package pdftex.def Info: photo/DLL.png  used on input line 739.
+Package pdftex.def Info: photo/DLL.png  used on input line 743.
 (pdftex.def)             Requested size: 298.75264pt x 61.26637pt.
- [15 <./photo/linkedlist.png> <./photo/DLL.png>] [16]
-<photo/lifovsfifo.jpg, id=705, 722.7pt x 582.978pt>
+ [16 <./photo/linkedlist.png> <./photo/DLL.png>] [17]
+<photo/lifovsfifo.jpg, id=761, 722.7pt x 582.978pt>
 File: photo/lifovsfifo.jpg Graphic file (type jpg)
 <use photo/lifovsfifo.jpg>
-Package pdftex.def Info: photo/lifovsfifo.jpg  used on input line 818.
+Package pdftex.def Info: photo/lifovsfifo.jpg  used on input line 822.
 (pdftex.def)             Requested size: 213.39568pt x 172.13713pt.
-<photo/Queue.png, id=706, 1086.0575pt x 385.44pt>
+<photo/Queue.png, id=762, 1086.0575pt x 385.44pt>
 File: photo/Queue.png Graphic file (type png)
 <use photo/Queue.png>
-Package pdftex.def Info: photo/Queue.png  used on input line 839.
+Package pdftex.def Info: photo/Queue.png  used on input line 843.
 (pdftex.def)             Requested size: 298.75264pt x 106.02867pt.
- [17 <./photo/lifovsfifo.jpg> <./photo/Queue.png>]
-<photo/albero.png, id=712, 812.28468pt x 402.00188pt>
+ [18 <./photo/lifovsfifo.jpg> <./photo/Queue.png>]
+<photo/albero.png, id=770, 812.28468pt x 402.00188pt>
 File: photo/albero.png Graphic file (type png)
 <use photo/albero.png>
-Package pdftex.def Info: photo/albero.png  used on input line 846.
+Package pdftex.def Info: photo/albero.png  used on input line 850.
 (pdftex.def)             Requested size: 256.07741pt x 126.7294pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 849--857
+Underfull \hbox (badness 10000) in paragraph at lines 853--861
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 849--857
+Underfull \hbox (badness 10000) in paragraph at lines 853--861
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 860--867
+Underfull \hbox (badness 10000) in paragraph at lines 864--871
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 860--867
+Underfull \hbox (badness 10000) in paragraph at lines 864--871
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 870--874
+Underfull \hbox (badness 10000) in paragraph at lines 874--878
 
  []
 
-[18 <./photo/albero.png>]
-<photo/alberoRN.png, id=718, 856.70062pt x 343.2825pt>
+[19 <./photo/albero.png>]
+<photo/alberoRN.png, id=778, 856.70062pt x 343.2825pt>
 File: photo/alberoRN.png Graphic file (type png)
 <use photo/alberoRN.png>
-Package pdftex.def Info: photo/alberoRN.png  used on input line 896.
+Package pdftex.def Info: photo/alberoRN.png  used on input line 900.
 (pdftex.def)             Requested size: 341.43437pt x 136.81294pt.
- [19 <./photo/alberoRN.png>]
-<photo/rotazionedx.png, id=725, 588.69937pt x 365.86688pt>
+ [20 <./photo/alberoRN.png>]
+<photo/rotazionedx.png, id=785, 588.69937pt x 365.86688pt>
 File: photo/rotazionedx.png Graphic file (type png)
 <use photo/rotazionedx.png>
-Package pdftex.def Info: photo/rotazionedx.png  used on input line 921.
-(pdftex.def)             Requested size: 256.07741pt x 159.14522pt.
- [20 <./photo/rotazionedx.png>] (main.aux)
+Package pdftex.def Info: photo/rotazionedx.png  used on input line 924.
+(pdftex.def)             Requested size: 213.39568pt x 132.62195pt.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 928.
+<photo/InserimentoNodoAlbero.png, id=786, 516.42938pt x 213.79875pt>
+File: photo/InserimentoNodoAlbero.png Graphic file (type png)
+<use photo/InserimentoNodoAlbero.png>
+Package pdftex.def Info: photo/InserimentoNodoAlbero.png  used on input line 95
+2.
+(pdftex.def)             Requested size: 384.1096pt x 159.02415pt.
+<photo/balanceinsert.png, id=787, 508.90125pt x 236.38312pt>
+File: photo/balanceinsert.png Graphic file (type png)
+<use photo/balanceinsert.png>
+Package pdftex.def Info: photo/balanceinsert.png  used on input line 956.
+(pdftex.def)             Requested size: 384.1096pt x 178.42307pt.
+<photo/removeNode.png, id=788, 510.40688pt x 228.10219pt>
+File: photo/removeNode.png Graphic file (type png)
+<use photo/removeNode.png>
+Package pdftex.def Info: photo/removeNode.png  used on input line 960.
+(pdftex.def)             Requested size: 384.1096pt x 171.6679pt.
+<photo/balanceDelete.png, id=789, 515.67656pt x 240.14719pt>
+File: photo/balanceDelete.png Graphic file (type png)
+<use photo/balanceDelete.png>
+Package pdftex.def Info: photo/balanceDelete.png  used on input line 964.
+(pdftex.def)             Requested size: 384.1096pt x 178.88237pt.
+ [21 <./photo/rotazionedx.png>]
+Overfull \vbox (24.2144pt too high) has occurred while \output is active []
+
+
+[22 <./photo/InserimentoNodoAlbero.png> <./photo/balanceinsert.png> <./photo/re
+moveNode.png> <./photo/balanceDelete.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 971--977
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 978--982
+
+ []
+
+<photo/bubblesort.png, id=807, 502.87875pt x 153.57375pt>
+File: photo/bubblesort.png Graphic file (type png)
+<use photo/bubblesort.png>
+Package pdftex.def Info: photo/bubblesort.png  used on input line 986.
+(pdftex.def)             Requested size: 426.79135pt x 130.33676pt.
+[23 <./photo/bubblesort.png>]
+<photo/insertion.png, id=814, 562.35094pt x 173.89969pt>
+File: photo/insertion.png Graphic file (type png)
+<use photo/insertion.png>
+Package pdftex.def Info: photo/insertion.png  used on input line 1002.
+(pdftex.def)             Requested size: 426.79135pt x 131.97937pt.
+ [24 <./photo/insertion.png>]
+<photo/quickSort.png, id=822, 497.60907pt x 94.10156pt>
+File: photo/quickSort.png Graphic file (type png)
+<use photo/quickSort.png>
+Package pdftex.def Info: photo/quickSort.png  used on input line 1026.
+(pdftex.def)             Requested size: 426.79135pt x 80.71037pt.
+<photo/pivot.png, id=823, 499.8675pt x 182.93344pt>
+File: photo/pivot.png Graphic file (type png)
+<use photo/pivot.png>
+Package pdftex.def Info: photo/pivot.png  used on input line 1028.
+(pdftex.def)             Requested size: 426.79135pt x 156.19476pt.
+ [25 <./photo/quickSort.png> <./photo/pivot.png>]
+<photo/mergeSort.png, id=832, 499.8675pt x 121.95563pt>
+File: photo/mergeSort.png Graphic file (type png)
+<use photo/mergeSort.png>
+Package pdftex.def Info: photo/mergeSort.png  used on input line 1049.
+(pdftex.def)             Requested size: 426.79135pt x 104.12984pt.
+<photo/merge.png, id=833, 499.8675pt x 218.31563pt>
+File: photo/merge.png Graphic file (type png)
+<use photo/merge.png>
+Package pdftex.def Info: photo/merge.png  used on input line 1051.
+(pdftex.def)             Requested size: 426.79135pt x 186.40527pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1062
+
+ []
+
+[26 <./photo/mergeSort.png> <./photo/merge.png>] (main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 009B4A17856B6A11F4B450D340800EE8;6923.
+(rerunfilecheck)             Checksum: FFC3DAE795C49101CE4882F0C73DAB6D;8364.
  ) 
 Here is how much of TeX's memory you used:
- 14989 strings out of 475248
- 236398 string characters out of 5757812
+ 17245 strings out of 475248
+ 278674 string characters out of 5757812
  2360785 words of memory out of 5000000
- 35868 multiletter control sequences out of 15000+600000
- 565833 words of font info for 63 fonts, out of 8000000 for 9000
+ 38063 multiletter control sequences out of 15000+600000
+ 566134 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,11n,93p,646b,1260s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,93p,704b,1264s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\David\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/David/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/David/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/David/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/David/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/David/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/David/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/David/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
-s/David/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<C:/Users/David/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r6.pfb><C:/Users/David/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr7.pfb><C:/Users/David/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><C:/Users/David/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/David/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/David/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/David/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/David/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on main.pdf (20 pages, 903522 bytes).
+TeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/David/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/David/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Davi
+d/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Us
+ers/David/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><C:/Users/David/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Users/David/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr6.pfb><C:/Users/David/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb><C:/Users/David/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><C:/Users/David/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/David/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/David/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/David/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Dav
+id/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on main.pdf (26 pages, 1868133 bytes).
 PDF statistics:
- 898 PDF objects out of 1000 (max. 8388607)
- 460 named destinations out of 1000 (max. 500000)
- 376 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1019 PDF objects out of 1200 (max. 8388607)
+ 493 named destinations out of 1000 (max. 500000)
+ 498 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -11,6 +11,10 @@
 \usepackage{hyperref}
 \usepackage{listings}
 \usepackage{xcolor}
+\usepackage{subcaption}
+\usepackage{algpseudocode}
+
+\usepackage{algorithm}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -915,14 +919,145 @@ Quando i vincoli sopracitati vengono violati si può agire nei seguenti modi :
 	\item Operando dei ribilanciamenti dell'albero tramite \textbf{rotazioni} rispettivamente \textbf{rotazione destra} e \textbf{rotazione sinistra}
 
 \end{itemize}
-
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\linewidth]{photo/rotazionedx.png}
+	\includegraphics[width=0.5\linewidth]{photo/rotazionedx.png}
 \end{figure}
 
+\begin{algorithm}
+	\caption{Rotazione a sinistra }
+	\begin{algorithmic}[1]
+		\Function{Tree RotateLeft}{$Tree \: \: x$}
+		\State $Tree y \gets x.right;$
+		\State $Tree p \gets x.parent;$
+		\State $x.right \gets y.left;$
+		\If{$y.left \neq \text{nil}$}
+		\State $y.left.parent \gets x;$
+		\EndIf
+		\State $y.left \gets x;$
+		\State $x.parent \gets y;$
+		\State $y.parent \gets p;$
+		\If{$p \not= \text{nil}$}
+		\If{$p.left = x $}
+		\State $p.left \gets y ;$
+		\Else
+		\State $p.right \gets y;$
+		\EndIf
+		\EndIf
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{photo/InserimentoNodoAlbero}
+	\label{fig:inserimentonodoalbero}
+	\newline
+	\\
+	\includegraphics[width=0.9\linewidth]{photo/balanceinsert}
+	\label{fig:balanceInsert}
+	\newline
+	\\
+	\includegraphics[width=0.9\linewidth]{photo/removeNode}
+	\label{fig:removeNode}
+	\newline
+	\\
+	\includegraphics[width=0.9\linewidth]{photo/balanceDelete}
+	\label{fig:balanceDelete}
+\end{figure}
 
+\newpage
+\section{Ordinamento}
+\subsection{Problema dell'ordinamento}
+\textbf{Problema dell'ordinamento:}Abbiamo una collezione di oggetti $R_i$ ciascuno con una chiave $K_i$.
+\\
+Le chiavi ammettono una relazione di ordinamento: \textbf{Tricotomia} e la \textbf{transitività}
+\\
+\\
+\textbf{Perché abbiamo bisogno di un inseme ordinato ?} Perché la ricerca in un inseme ordinato ha un costo di ordine $0(log\: n)$, quindi avere una sequenza in ordine può far risparmiare tempo. 
+\subsubsection{Permutazioni}
+Una \textbf{Permutazione} è una sequenza di \textit{n} di ogetti distinguibili tra loro in uno specifico ordine.
+\\
+\\
+Se l'insieme degli oggetti è l'inseme {0,1,2,3,...} possiamo usarli come \textit{indici} per accedere un altro insieme di oggetti 
+\subsection{Bubble sort}
+Il \textbf{bubble sort} è un semplice algoritmo di ordinamento che ripetutamente scorre la lista, o vettore, confronta i due elementi vicini e li scambia se si trovano nell'ordine sbagliato. Lo scorrimento attraverso gli elementi prosegue fino a quando la lista non è completamente ordinata.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{photo/bubblesort}
+	\label{fig:bubblesort}
+\end{figure}
+Analizzando la performance dell’algoritmo di ordinamento possiamo osservare che:
+\begin{itemize}
+\item nel caso peggiore, cioè quando tutti gli elementi contenuti sono da ordinare, presenta una complessità computazionale $O(n^2)$ dove n corrisponde al numero di elementi da ordinare nella lista.
+\item nel caso migliore, ovvero quando la lista è completamente ordinata e non si deve svolgere alcuno scambio, possiede una complessità computazionale $O(n)$. In questo caso il bubble sort risulta più efficiente di altri algoritmi di ordinamento, in quanto l’abilità di verificare che la lista sia ordinata è implementata direttamente nell’algoritmo.
+\end{itemize}
+\newpage
+\subsection{Insertion Sorting}
+L’insertion sort, detto anche algoritmo a inserimento, è un algoritmo di ordinamento che ordina una lista, o vettore, passando un elemento alla volta, analogamente a quando ordiniamo un mazzo di carte.
+\\
+Nonostante sia molto meno efficiente su vettori molto grandi rispetto ad algoritmi più avanzati, può avere alcuni vantaggi, tra i quali: è semplice da implementare, è più efficiente su data set più piccoli e già parzialmente ordinati, è più efficiente di altri algoritmi di ordinamento con complessità quadratica come il bubble sort e selection sort.
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{photo/insertion}
+	\label{fig:insertion}
+\end{figure}
+\\
+\textbf{Quale è il costo?}
+\begin{itemize}
+	\item ad ogni iterazione del ciclo \verb*|For i = 0... n-1|, abbiamo un ciclo intero,ed un paio di assegnazioni
+	\item Il ciclo interno viene eseguito per valori \verb*|j| che possono andare (nel caso peggiore) \textit{i} a 0, mentre nel caso migliore non verrà eseguita nessuna operazione.
 
+\end{itemize}
+Ogni iterazione del ciclo esterno ha un costo potenzialmente diverso. Quindi nel caso peggiore
 
+\[ 
+	opcnt = \bigg(\sum_{i=0}^{n-1}1 + 1 \bigg)+ \bigg(\sum_{i=0}^{n-1} \sum_{j=0}^{i-1} 1 \bigg)
+	\le 2n + \sum_{i=0}^{n-1} (i + 1) 
+	= 3n + \frac{(n-1)n}{2} 
+	= O(n^2)
+ \]
+mentre nel caso migliore sopravvive solo il ciclo esterno e quindi il costo è $\Omega(n)$
+\newpage
+\subsection{Quicksort} 
+Il \href{https://algorithm-visualizer.org/divide-and-conquer/quicksort}{\textbf{quick sort}} è un algoritmo di ordinamento ricorsivo in loco (o in place), in particolare utilizza il metodo \textbf{divide et impera} per ordinare i dati di un vettore. La procedura ricorsiva avviene nel seguente modo: viene scelto un elemento dall’array, detto pivot, si posizionano gli elementi minori a sinistra del pivot, mentre gli elementi più grandi a destra. In questo modo ci saranno due sottogruppi divisi dal pivot, il quale si troverà nella posizione finale. Il processo verrà ripetuto in ciascun sottogruppo fino a che il vettore non sarà completamente ordinato.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{photo/quickSort}
+	\label{fig:quicksort}
+	\includegraphics[width=1\linewidth]{photo/pivot}
+	\label{fig:pivot}
+\end{figure}
+\subsubsection{Complessità Computazionale del Quicksort}
+
+La complessità dell'algoritmo quicksort dipende dal caso in cui viene eseguito.
+\begin{itemize}
+	\item Caso migliore: $O(n \:log \:n )$
+	\\
+	Il caso migliore si verifica quando il pivot viene scelto in modo tale da dividere l'array in due parti uguali ogni volta. In questo caso, quicksort impiega O(n log n) operazioni per ordinare l'array, che è la stessa complessità di heapsort e merge sort.
+	\item Caso medio: $O(n \:log \:n )$
+	\\
+	Il caso medio si verifica quando il pivot viene scelto in modo casuale. In questo caso, la probabilità che il pivot non sia un buon pivot è molto bassa. Di conseguenza, la complessità di quicksort nel caso medio è ancora O(n log n).
+	\item Caso peggiore: $O(n^2 )$
+	Il caso peggiore si verifica quando il pivot viene scelto in modo tale da dividere l'array in due parti sbilanciate ogni volta. In questo caso, quicksort impiega $O(n^2)$ operazioni per ordinare l'array, che è la stessa complessità di bubble sort e insertion sort.
+\end{itemize}
+\newpage
+\subsection{Mergesort}
+Merge sort è un algoritmo basato sul principio del divide et impera (come il quick sort), che suddivide un problema in sottoproblemi più piccoli e poi li risolve ricorsivamente. Merge sort è un algoritmo di ordinamento stabile, il che significa che l'ordine degli elementi uguali viene preservato nell'output ordinato
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{photo/mergeSort}
+	\label{fig:mergesort}
+	\includegraphics[width=1\linewidth]{photo/merge}
+	\label{fig:merge}
+\end{figure}
+\subsubsection{Complessità Computazionale del Mergesort}
+La complessità computazionale del mergesort è analoga a quella del Quicksort, dato che ad ogni passo ricorsivo sto spezzando la sequenza iniziale in due sottosequenze eguali, per ciò $T(n)=O(nlog(n)))$ 
+\\
+\\
+\textbf{Osservazione:}
+	Il \textbf{Mergesort} è un algroritmo migliore del quicksort in termini di complessità nel caso peggiore   
+	$O(nlog(n))$ per il mergesort e   $O(n^2)$ per il Quicksort.
+	Tuttavia, nel caso medio il Quicksort è più veloce
 \end{document}
 
